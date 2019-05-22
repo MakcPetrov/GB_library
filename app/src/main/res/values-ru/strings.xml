@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Моя Приблуда</string>
+    <string name="input">введите текст</string>
+    <string name="btn1_text">Слить Строки</string>
+    <string name="btn2_text">Очистить</string>
+</resources>
