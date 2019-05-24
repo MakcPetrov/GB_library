@@ -36,19 +36,17 @@ public class SecondActivity extends MvpAppCompatActivity implements SecondView {
     }
 
     public void button1Click(View view){
+        presenter.setmEditText(mEditText.getText().toString());
         presenter.onButton1Click();
     }
+
     public void button2Click(View view){
+        presenter.setmEditText(mEditText.getText().toString());
         presenter.onButton2Click();
     }
 
     public void mSetText(String text) {
         mTextView.setText(text);
-    }
-
-    @Override
-    public String getmEditText() {
-        return mEditText.getText().toString();
     }
 
     @Override

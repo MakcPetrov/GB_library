@@ -1,7 +1,7 @@
 package ru.k113.myapplication;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -26,14 +26,13 @@ private MainPresenter mMainPresenter;
         mMainPresenter = new MainPresenter(this);
     }
 
-
     public void button1Click(View view){
         mMainPresenter.onButton1Click();
     }
-    public void button2Click(View view){
-        mMainPresenter.onButton2Click();
-    }
 
+    public void button2Click(View view){ mMainPresenter.onButton2Click();  }
+
+    @Override
     public void mSetText(String text) {
        mTextView.setText(text);
     }

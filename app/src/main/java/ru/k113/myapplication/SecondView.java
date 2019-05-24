@@ -9,6 +9,5 @@ interface SecondView extends MvpView{
     @StateStrategyType(value = AddToEndStrategy.class)
 
     void mSetText(String text);
-    String getmEditText();
     void mSetEditText(String text);
 }
